@@ -379,7 +379,11 @@ body {
   #ABOUT
 \*-----------------------------------*/
 
-.about-banner { margin-block-end: 30px; }
+.about-banner { 
+  margin-block-end: 30px; 
+  display: flex;
+  align-items: center;
+}
 
 .about .section-title { margin-inline: 0; }
 
@@ -391,11 +395,11 @@ body {
 .about-text {
   font-size: var(--fs-8);
   margin-block-end: 20px;
-  font-size: 18px;
-  font-weight: 700;
-  padding-left: 35px;
   /* color:#000 ; */
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .stats-list {
