@@ -1038,7 +1038,21 @@ body {
     flex-direction: column;
     justify-content: space-between;
   }
-/* ICON ZALO  */
+
+  /**
+   * FOOTER
+   */
+
+  .footer-top .container { grid-template-columns: 1fr 0.5fr 0.7fr 0.5fr 1fr; }
+
+  .footer-brand { grid-column: auto; }
+
+}
+/*  icon  */
+.icon{
+  font-size: 40px;
+  margin-right: 5px;
+}
 
 .hotline-phone-ring-circle{width:85px;height:85px;top:10px;left:10px;position:absolute;background-color:transparent;border-radius:100%;border:2px solid #e60808;-webkit-animation:phonering-alo-circle-anim 1.2s infinite ease-in-out;animation:phonering-alo-circle-anim 1.2s infinite ease-in-out;transition:all .5s;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;opacity:.5}
 .hotline-phone-ring-circle-fill{width:55px;height:55px;top:22px;left:26px;position:absolute;background-color:rgba(230,8,8,.7);border-radius:100%;border:2px solid transparent;-webkit-animation:phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;animation:phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;transition:all .5s;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%}
@@ -1195,26 +1209,5 @@ ul.left-icon.hotline {
 }
 .float-icon-hotline ul li .fa-messenger:hover {
     background: #168efb url(https://netweb.vn/img/hotline/fb.png) center center no-repeat;opacity:.5;
-}
-/* END ICON ZALO */
-
-
-  /**
-   * FOOTER
-   */
-
-  .footer-top .container { grid-template-columns: 1fr 0.5fr 0.7fr 0.5fr 1fr; }
-
-  .footer-brand { grid-column: auto; }
-
-}
-/*  icon  */
-.icon{
-  font-size: 40px;
-  
-  /* text-align: center; */
-  display: flexbox;
-  margin-right: 5px;
-
 }
 
